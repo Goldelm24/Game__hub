@@ -20,7 +20,7 @@ function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
 
   return (
-    <>
+    
       <Grid
         templateAreas={{
           base: `"nav" "main"`,
@@ -74,7 +74,7 @@ function App() {
           <GameGrid gameQuery={gameQuery} />
         </GridItem>
       </Grid>
-    </>
+
   );
 }
 
